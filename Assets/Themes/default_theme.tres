@@ -1,0 +1,42 @@
+[gd_resource type="Theme" load_steps=13 format=3 uid="uid://crphl8e4ihycd"]
+
+[ext_resource type="FontFile" uid="uid://cn4uvuupoxq14" path="res://UI/Menu/DigitalPixelV8-Regular_0.otf" id="1_fqf8d"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lcnlw"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qqci1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rmgk1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7snvq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_p6xy2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g80sq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0vhou"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2lmbq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xb1p1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fx6ek"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t5bie"]
+
+[resource]
+default_font = ExtResource("1_fqf8d")
+Button/colors/font_focus_color = Color(0.581807, 0.182457, 0.239179, 1)
+Button/colors/font_hover_color = Color(0.948968, 0.475355, 0.450457, 1)
+Button/colors/font_pressed_color = Color(0.336306, 0.000707937, 0.123224, 1)
+Button/styles/disabled = SubResource("StyleBoxEmpty_lcnlw")
+Button/styles/disabled_mirrored = SubResource("StyleBoxEmpty_qqci1")
+Button/styles/focus = SubResource("StyleBoxEmpty_rmgk1")
+Button/styles/hover = SubResource("StyleBoxEmpty_7snvq")
+Button/styles/hover_mirrored = SubResource("StyleBoxEmpty_p6xy2")
+Button/styles/hover_pressed = SubResource("StyleBoxEmpty_g80sq")
+Button/styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_0vhou")
+Button/styles/normal = SubResource("StyleBoxEmpty_2lmbq")
+Button/styles/normal_mirrored = SubResource("StyleBoxEmpty_xb1p1")
+Button/styles/pressed = SubResource("StyleBoxEmpty_fx6ek")
+Button/styles/pressed_mirrored = SubResource("StyleBoxEmpty_t5bie")
